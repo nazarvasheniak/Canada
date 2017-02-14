@@ -2367,6 +2367,11 @@ body.info-page .main .info .info-content p {
 	body.home-page .main .offer-one .heading-inner h3 {
 		font: 14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
+	
+	body.info-page .main .info .heading-inner h3 {
+		font: 14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: italic;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -2388,6 +2393,11 @@ body.info-page .main .info .info-content p {
 	
 	body.home-page .main .offer-one .heading-inner h3 {
 		font: 12px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	
+	body.info-page .main .info .heading-inner h3 {
+		font: 12px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: italic;
 	}
 }
 
