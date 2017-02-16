@@ -606,7 +606,7 @@ h6, .h6 {
   .swiper-jumbotron:after {
     content: "";
     position: absolute;
-    width: 40%;
+    width: 30%;
     height: 100%;
     left: 3%;
     top: 46%;
@@ -1926,14 +1926,14 @@ body.home-page .swiper-jumb .swiper-slide .slider-img {
 	width: 100%;
 }
 
-body.home-page  .swiper-jumbotron .slider-btn {
+body.home-page .swiper-jumbotron .slider-btn {
 	width: 100%;
     left: 0;
     justify-content: center;
     transform: translateX(0);
 }
 
-body.home-page  .swiper-jumbotron .swiper-slide .jumbotron {
+body.home-page .swiper-jumbotron .swiper-slide .jumbotron {
 	top: 40%;
 }
 
@@ -2457,6 +2457,14 @@ body.profile-page .main-content .add-lang-btn a.add-lang:after {
     top: 0px;
 }
 
+body.profile-page .main-content .save-btn {
+	margin: 25px 0;
+}
+
+body.profile-page .main-content .save-btn .btn {
+	margin: 10px 0;
+}
+
 @media screen and (max-width: 980px) {
 	body.profile-page .main-content .profile-block > div:first-child {
 		max-width: 100%;
@@ -2471,10 +2479,153 @@ body.profile-page .main-content .add-lang-btn a.add-lang:after {
 	}
 }
 
+body.profile-page .main-content .col-content-left {
+	max-width: 830px;
+}
 
+body.profile-page .main-content .col-content-right {
+	max-width: 280px;
+}
 
+body.profile-page .main-content .nav-box {
+	border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 12px 25px;
+    margin: 20px 0;
+}
 
+body.profile-page .main-content .nav-box .nav-title {
+	font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    transform: scaleX(1.002);
+	border-bottom: 1px #a9a9a9 solid;
+    padding-bottom: 5px;
+}
 
+body.profile-page .main-content .nav-box nav {
+	margin: 20px 0;
+}
+
+body.profile-page .main-content .nav-box nav ul li {
+	border-bottom: 1px #a9a9a9 solid;
+	padding: 7px 0;
+}
+
+body.profile-page .main-content .nav-box nav ul li a {
+	font-size: 14px;
+	color: #503b50;
+}
+
+/* Cart */
+
+body.cart-page .cart-body .cart-body {
+	display: flex;
+	flex-direction: column;
+}
+
+body.cart-page .cart-body .cart-item {
+	display: flex;
+	flex-direction: column;
+}
+
+body.cart-page .cart-body .cart-item li.item-info {
+	border-bottom: 1px #ddd solid;
+    padding: 15px 0;
+}
+
+body.cart-page .cart-body .cart-item li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+body.cart-page .cart-body .cart-item li p.item-name {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0 25px;
+}
+
+body.cart-page .cart-body .cart-item li span.delete-item {
+	display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/close1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+body.cart-page .cart-body .cart-item li.item-count {
+	margin: 15px 0;
+}
+
+body.cart-page .cart-body .cart-item li.item-count p {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter {
+	position: relative;
+	margin: 0 25px;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter p {
+	display: inline-block;
+	font-size: 14px;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter input {
+	border: none;
+    width: 16px;
+	margin-right: 15px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span {
+	display: block;
+    width: 12px;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span i {
+	position: relative;
+    top: -4px;
+    font-size: 18px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span .fa-caret-up:before {
+	content: "\f0d8";
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span .fa-caret-down:before {
+    content: "\f0d7";
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span.plus {
+	top: -2px;
+    cursor: pointer;
+}
+
+body.cart-page .cart-body .cart-item li.item-count .item-counter span.minus {
+	bottom: -2px;
+    cursor: pointer;
+}
 
 
 

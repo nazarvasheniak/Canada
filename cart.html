@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Info Canada</title>
+	<title>Cart Canada</title>
 	<link media="all" rel="stylesheet" href="assets/css/all.css">
 	<link rel="stylesheet" href="assets/css/swiper.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,800,600' rel='stylesheet' type='text/css'>
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="assets/css/style2.css">
 </head>
-<body class="profile-page">
+<body class="cart-page">
 	
 	<!-- Header -->
 	<header class="header header-type-2">
@@ -86,7 +86,7 @@
 						<a href="/">Главная /</a>
 					</li>
 					<li class="disp">
-						<a href="/info.html">Профиль</a>
+						<a href="/info.html">Корзина</a>
 					</li>
 				</ul>
 			</div>
@@ -100,104 +100,72 @@
 				
 				<!-- Content heading -->
 				<section class="content-heading">
-					<span class="disp content-h1">Настройки общедоступного профиля</span>
+					<span class="disp content-h1">Ваша корзина</span>
 				</section>
 				
 				<section class="main-content-description fullview">
 					
-					<!-- Profile photo -->
-					<div class="profile-block profile-photo">
-						<div>
-							<span class="heading">Фото профиля</span>
-							
-							<button class=" btn btn-brand btn-sm">Выбрать фото</button>
-							
-							<p>Это ваше личное фото на Маркетплейс. Оно будет отображаться на странице вашего профиля и услуг.</p>
-						</div>
+					<!-- Cart items -->
+					<div class="cart-body">
 						
-						<div>
-							<img src="assets/images/user-pic.png" alt="" />
-						</div>
-					</div>
-					
-					<!-- Online status -->
-					<div class="profile-block online-status">
-						<div>
-							<span class="heading">Онлайн статус</span>
+						<!-- Cart item -->
+						<ul class="cart-item">
 							
-							<p>Когда вы онлайн, ваши услуги можно найти, используя фильтр с поиском продавцов онлайн.</p>
-						</div>
-						
-						<div>
-							<div class="form-input">
-								<label class="desc" for="go-offline">Уйти офлайн на:</label>
+							<!-- Item info -->
+							<li class="item-info">
+								<img class="item-img" src="assets/images/slide-224x138.png" alt="" />
 								
-								<select name="go-offline" id="go-offline" class="form-control">								
-									<option value="">Уйти офлайн на...</option>
-									<option value="">1</option>
-									<option value="">2</option>
-									<option value="">3</option>
-								</select>
-							</div>
-						</div>
-					</div>
-					
-					<!-- Language -->
-					<div class="profile-block profile-settings">
-						<div>
-							<span class="heading">Фото профиля</span>
+								<p class="item-name">Помогу поднять ваш сайт на топовые места в Google и Яндекс (Базовый)</p>
+								
+								<span data-onclick="removeProduct" data-product-key="207" data-toggle="tooltip" type="button" class="delete-item" data-original-title="" title=""></span>
+							</li>
 							
-							<p>Когда вы онлайн, ваши услуги можно найти, используя фильтр с поиском продавцов онлайн.</p>
-						</div>
-						
-						<div>
-							<div class="form-input">
-								<label class="desc" for="language-1">Язык:</label>
+							<!-- Item count -->
+							<li class="item-count">
+								<p>Количество</p>
 								
-								<select name="language-1" id="language-1" class="form-control">
-									<option value="RUS" selected>Русский</option>
-									<option value="UKR">Українська</option>
-									<option value="POL">Polski</option>
-									<option value="ENG">English</option>
-								</select>
-							</div>
-							
-							<div class="form-input">
-								<label class="desc" for="language-1">Уровень:</label>
-								
-								<select name="language-level-1" id="language-level-1" class="form-control">
-									<option value="1">Родной</option>
-									<option value="2">Разговорный</option>
-									<option value="3">Средний</option>
-									<option value="4">Начальный</option>
-								</select>
-							</div>
-						</div>
-					</div>
-					
-					<div class="add-lang-btn">
-						<a href="#" class="add-lang">Добавить язык</a>
-					</div>
-					
-					<div class="save-btn">
-						<button class="btn btn-brand btn-lg">Сохранить изменения</button>
-					</div>
-				</section>
-			</div>
-			
-			<!-- Content right -->
-			<div class="disp col-content-right">
-				<section class="nav-box">
-					<span class="nav-title">Настройки профиля</span>
-					
-					<nav>
-						<ul class="nav">
-							<li><a href="#">Общедоступный профиль</a></li>
-							<li><a href="#">Счет</a></li>
-							<li><a href="#">Безопасность</a></li>
-							<li><a href="#">Настройка доступа</a></li>
+								<div>
+									<span class="item-counter">
+										<p>x</p>
+										<input type="text" name="item-quantity" id="item-quantity" value="1">
+										<span class="plus"><i class="fa fa-caret-up" data-onclick="increaseProductQuantity" data-toggle="tooltip" aria-hidden="true" data-original-title="" title=""></i></span>
+										<span class="minus"><i class="fa fa-caret-down" data-onclick="decreaseProductQuantity" data-toggle="tooltip" aria-hidden="true" data-original-title="" title=""></i></span>
+									</span>
+									
+									<span class="price">10$</span>
+								</div>
+							</li>
 						</ul>
-					</nav>
+						
+						<!-- Cart item -->
+						<ul class="cart-item">
+							
+							<!-- Item info -->
+							<li class="item-info">
+								<img class="item-img" src="assets/images/478-224x138.jpg" alt="" />
+								
+								<p class="item-name">Проведем профессиональный SEO аудит сайта и составим список работ</p>
+								
+								<span data-onclick="removeProduct" data-product-key="207" data-toggle="tooltip" type="button" class="delete-item" data-original-title="" title=""></span>
+							</li>
+							
+							<!-- Item count -->
+							<li class="item-count">
+								<p>Количество</p>
+								
+								<div>
+									<span class="item-counter">
+										<p>x</p>
+										<input type="text" name="item-quantity" id="item-quantity" value="1">
+										<span class="plus"><i class="fa fa-caret-up" data-onclick="increaseProductQuantity" data-toggle="tooltip" aria-hidden="true" data-original-title="" title=""></i></span>
+										<span class="minus"><i class="fa fa-caret-down" data-onclick="decreaseProductQuantity" data-toggle="tooltip" aria-hidden="true" data-original-title="" title=""></i></span>
+									</span>
+									
+									<span class="price">150$</span>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</section>
 			</div>
 		</section>
@@ -258,6 +226,30 @@
 	<script src="assets/js/owlcarousel/owl.carousel.min.js"></script>
 	<script src="assets/js/owlcarousel/owl.carousel2.thumbs.min.js"></script>
 	<script src="assets/js/owlcarousel/common2.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+			if ( $(document.body).attr('class') == 'cart-page' ) {
+				
+				$('.minus').click(function () {
+					var $input = $(this).parent().find('input');
+					var count = parseInt($input.val()) - 1;
+					count = count < 1 ? 1 : count;
+					$input.val(count);
+					$input.change();
+					return false;
+				});
+				
+				$('.plus').click(function () {
+					var $input = $(this).parent().find('input');
+					$input.val(parseInt($input.val()) + 1);
+					$input.change();
+					return false;
+				});
+			}
+		});
+	</script>
+
 </body>
 
 </html>
