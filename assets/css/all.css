@@ -1877,6 +1877,8 @@ h6, .h6 {
       background: #fff url(../images/user.png) no-repeat 3% 50%; }
     .form-input .form-control-mail {
       background: #fff url(../images/mail.png) no-repeat 2% 50%; }
+    .form-input .form-control-password {
+      background: #fff url(../images/password.png) no-repeat 2% 50%; }
     .form-input .form-control-phone {
       background: #fff url(../images/phone.png) no-repeat 4% 50%; }
 
@@ -3114,6 +3116,87 @@ body.catalog-page .main .col-content-right .items .item .item-bottom .item-price
 		display: block;
 	}
 }
+
+/* Login */
+
+@media screen and (max-width: 1150px) {
+	body.login-page .main .col-content-right {
+		display: block;
+	}
+}
+
+body.login-page .main-content {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	margin: 25px auto 50px;
+}
+
+body.login-page .main .col-content-left, body.login-page .main .col-content-right {
+	max-width: 585px;
+	width: auto;
+	float: none;
+	margin: 0 auto;
+}
+
+body.login-page .main-content .register-block h3 {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+
+body.login-page .main-content .register-block p {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+body.login-page .main-content .login-block h3 {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+}
+
+body.login-page .main-content .login-block .login-form {
+	margin: 25px 0;
+}
+
+body.login-page .main-content .login-block .login-form .form-input {
+  margin-bottom: 15px;
+}
+
+body.login-page .main-content .login-block .login-form .lost-pass {
+  margin-bottom: 15px;
+}
+
+body.login-page .main-content .login-block .login-form .lost-pass a {
+  font-size: 14px;
+  color: #e21b28;
+}
+
+body.login-page .main-content .login-block .login-form .lost-pass a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
