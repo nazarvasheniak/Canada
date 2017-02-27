@@ -157,7 +157,7 @@
   color:#e21a28;
   font-size:13px;/* Приближение из-за подстановки шрифтов */
   font-style:italic;
-  font-weight:normal;
+  font-weight:600;
   line-height:20px;/* Приближение из-за подстановки шрифтов */
   text-align:left;
 }
@@ -169,7 +169,7 @@
   line-height:20px;/* Приближение из-за подстановки шрифтов */
   text-align:left;
   font-style:normal;
-  font-weight:normal;
+  font-weight:600;
 }
 
 .col-content-left {
@@ -341,11 +341,19 @@
   right: 0;
 }
 
-
 .main-content-description{
   margin-bottom:30px;
-  height: 660px;
+  /* height: 660px; */
+  height: auto;
   overflow: hidden;
+}
+
+body.item-2-page .main-content-description {
+  height: 660px;
+}
+
+body.item-3-page .main-content-description {
+  height: 660px;
 }
 
 .main-content-description:after{

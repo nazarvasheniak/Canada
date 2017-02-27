@@ -240,7 +240,7 @@
 						<span>Понравилась статья? Расскажите о ней друзьям:</span>
 						<div class="widgets">
 							<ul>
-								<li><img src="assets/images/share-vk.png" alt=""></li>
+								<li><div id="vk_like"></div></li>
 								<li><img src="assets/images/share-fb.png" alt=""></li>
 								<li><img src="assets/images/share-g+.png" alt=""></li>
 								<li><img src="assets/images/share-tvit.png" alt=""></li>
@@ -463,7 +463,25 @@
 								</div>
 							</form>
 							<div class="rss text-center">
-								<img src="assets/images/rss.png" alt="">
+								 <a href="#">
+									 <img src="assets/images/icon-rss.png" alt="">
+								 </a>
+
+								<a href="#">
+									<img src="assets/images/icon-gplus.png" alt="">
+								</a>
+
+								<a href="#">
+									<img src="assets/images/icon-twitter.png" alt="">
+								</a>
+
+								<a href="#">
+									<img src="assets/images/icon-vk.png" alt="">
+								</a>
+
+								<a href="#">
+									<img src="assets/images/icon-facebook.png" alt="">
+								</a>
 							</div>
 						</div>
 					</div>
@@ -579,6 +597,13 @@
 	<script src="assets/js/starrr.js"></script>
 	<script src="assets/js/assets.js"></script>
 	<script src="assets/js/blog.js"></script>
+	<script type="text/javascript" src="http://vk.com/js/api/openapi.js?139"></script>
+	<script type="text/javascript">
+        VK.init({apiId: 5893946, onlyWidgets: true});
+	</script>
+	<script type="text/javascript">
+        VK.Widgets.Like("vk_like", {type: "button", height: 22});
+	</script>
 
 </body>
 </html>

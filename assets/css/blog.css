@@ -323,7 +323,7 @@
   color:#e21a28;
   font-size:13px;
   font-style:italic;
-  font-weight:normal;
+  font-weight:600;
   line-height:20px;
   text-align:left;
 }
@@ -335,7 +335,7 @@
   line-height:20px;
   text-align:left;
   font-style:normal;
-  font-weight:normal;
+  font-weight:600;
 }
 
 .title-page {
@@ -354,7 +354,7 @@
 }
 
 .swiper-jumb.blog-page .jumbotron .h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
 }
 
 @media screen and (max-width: 1100px) {
@@ -480,6 +480,7 @@
 .article .article-brief {
   color: #939393;
   font-size: 14px;
+  font-weight: 600;
   line-height: 20px;
   padding: 5px 0 ;
 }
@@ -509,6 +510,7 @@
 
 .article .article-brief .author a {
   color: #e21b28;
+  font-weight: 700;
 } 
 
 .article .article-brief .quantity-comments {
@@ -800,7 +802,7 @@
 
 .comments-list .comment-sub .reply {
   float: right;
-  font-weight: normal;
+  font-weight: 700;
   color: #e21b28;
   text-decoration: underline;
   font-size: 13px;
